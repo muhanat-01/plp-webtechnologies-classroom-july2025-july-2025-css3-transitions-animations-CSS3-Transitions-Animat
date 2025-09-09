@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="animate-text">Welcome to the Educational Platform</h1>
+    </header>
+
+    <main class="container">
+        <section class="quiz-section">
+            <h2>Quiz Questions</h2>
+            <div class="score-display">
+                Score: <span id="score">0</span>/2
+            </div>
+
+            <div class="quiz-container">
+                <!-- Question 1 -->
+                <div class="quiz-card" data-question="1">
+                    <h3>What is the capital of France?</h3>
+                    <div class="options">
+                        <button class="option" data-correct="false">A) Berlin</button>
+                        <button class="option" data-correct="false">B) Madrid</button>
+                        <button class="option" data-correct="true">C) Paris</button>
+                        <button class="option" data-correct="false">D) Rome</button>
+                    </div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="quiz-card" data-question="2">
+                    <h3>Which planet is known as the Red Planet?</h3>
+                    <div class="options">
+                        <button class="option" data-correct="false">A) Earth</button>
+                        <button class="option" data-correct="true">B) Mars</button>
+                        <button class="option" data-correct="false">C) Jupiter</button>
+                        <button class="option" data-correct="false">D) Saturn</button>
+                    </div>
+                </div>
+
+                <button id="submit-quiz" class="submit-btn">Submit Quiz</button>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <h2>More Info</h2>
+            <!-- Add more content here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Educational Platform</p>
+    </footer>
+</body>
+</html>
